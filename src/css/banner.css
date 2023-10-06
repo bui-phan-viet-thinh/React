@@ -1,0 +1,17 @@
+.banner {
+    background-image: url('URL_HINH_ANH'); /* Thay thế bằng URL hình ảnh của bạn */
+    background-size: cover; /* Hiển thị hình ảnh toàn màn hình */
+    color: #ffffff; /* Màu chữ trắng */
+    text-align: center; /* Căn giữa nội dung */
+    padding: 100px; /* Khoảng cách xung quanh nội dung */
+  }
+
+  /* Định dạng văn bản trong banner */
+  .banner h1 {
+    font-size: 36px; /* Cỡ chữ lớn */
+    margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và nội dung khác */
+  }
+
+  .banner p {
+    font-size: 18px; /* Cỡ chữ nhỏ hơn */
+  }

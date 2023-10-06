@@ -1,0 +1,56 @@
+/* Header.css */
+
+/* Định dạng phần header chung */
+header {
+    display: flex; /* Sử dụng Flexbox */
+    justify-content: space-between; /* Các phần tử sẽ căn cứ vào hai cạnh trái và phải của header */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Định dạng menu điều hướng */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Sắp xếp các mục menu hàng ngang */
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Định dạng thanh tìm kiếm và đăng nhập/đăng ký */
+  .search-bar,
+  .user-actions {
+    display: flex;
+    align-items: center; /* Căn giữa các phần tử con theo chiều dọc */
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px; /* Khoảng cách giữa ô tìm kiếm và nút tìm kiếm */
+  }
+  
+  .user-actions a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
